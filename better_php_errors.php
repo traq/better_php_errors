@@ -39,7 +39,7 @@ class Better_PHP_Errors extends \traq\libraries\Plugin
     );
 
     public static function init() {
-        require 'php_error.php';
+        require 'php_error/src/php_error.php';
         \php_error\reportErrors();
     }
 }

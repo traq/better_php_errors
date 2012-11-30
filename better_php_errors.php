@@ -30,7 +30,7 @@ use \FishHook;
  * @author Jack P.
  * @copyright (c) Jack P.
  */
-class Better_PHP_Errors extends \traq\libraries\Plugin
+class BetterPHPErrors extends \traq\libraries\Plugin
 {
     protected static $info = array(
         'name'    => 'Better PHP Errors',
